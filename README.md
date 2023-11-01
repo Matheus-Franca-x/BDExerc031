@@ -56,7 +56,7 @@
 - O user de id 2 não participa mais do projeto 10002, removê-lo da associativa.
 
 # Exerc2 Adicional:
-## Consultar:
+### Consultar:
 - Fazer uma consulta que retorne id, nome, email, username e caso a senha seja diferente de
 123mudar, mostrar ******** (8 asteriscos), caso contrário, mostrar a própria senha.
 - Considerando que o projeto 10001 durou 15 dias, fazer uma consulta que mostre o nome do
@@ -68,6 +68,7 @@ projeto de nome Auditoria
 e ele deve finalizar 16/09/2014, consultar, nome, descrição, data, data_final e custo_total do
 projeto
 
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## SQLLocadora.sql
 ### Considere o diagrama abaixo:
@@ -168,3 +169,17 @@ projeto
 7) Fazer um select que retorne Logradouro, num e CEP de Matilde Luz
 8) Fazer um select que retorne Nome real de Michael Keaton
 9) Fazer um select que retorne o num_cadastro, o nome e o endereço completo, concatenando (logradouro, numero e CEP), apelido end_comp, dos clientes cujo ID é maior ou igual 5503
+
+# Exerc2 Adicional:
+### Consultar:
+1) Fazer uma consulta que retorne ID, Ano, nome do Filme (Caso o nome do filme tenha
+mais de 10 caracteres, para caber no campo da tela, mostrar os 10 primeiros
+caracteres, seguidos de reticências ...) dos filmes cujos DVDs foram fabricados depois
+de 01/01/2020
+2) Fazer uma consulta que retorne num, data_fabricacao, qtd_meses_desde_fabricacao
+(Quantos meses desde que o dvd foi fabricado até hoje) do filme Interestelar
+3) Fazer uma consulta que retorne num_dvd, data_locacao, data_devolucao,
+dias_alugado(Total de dias que o dvd ficou alugado) e valor das locações da cliente que
+tem, no nome, o termo Rosa
+4) Nome, endereço_completo (logradouro e número concatenados), cep (formato
+XXXXX-XXX) dos clientes que alugaram DVD de num 10002.
