@@ -1,9 +1,10 @@
 # BDExerc021
 ## Links:
-## [para SQLWork.sql](#sqlworksql)
-### [para o adicional](#work-exerc2-adicional)
+### [para SQLWork.sql](#sqlworksql)
+#### [para o adicional](#work-exerc2-adicional)
 
-## [para SQLLocadora.sql](#sqllocadorasql)
+### [para SQLLocadora.sql](#sqllocadorasql)
+#### [para o adicional](#locadora-exerc2-adicional)
 
 ## SQLWork.sql
 ### Considere o diagrama abaixo:
