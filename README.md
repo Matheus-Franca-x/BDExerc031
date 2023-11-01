@@ -2,10 +2,10 @@
 ## Links:
 ---
 ### [para SQLWork.sql](#sqlworksql)
-#### [para o adicional](#work-exerc2-adicional)
+#### [exercício adicional](#work-exerc2-adicional)
 ---
 ### [para SQLLocadora.sql](#sqllocadorasql)
-#### [para o adicional](#locadora-exerc2-adicional)
+#### [exercício adicional](#locadora-exerc2-adicional)
 ---
 ## SQLWork.sql
 ### Considere o diagrama abaixo:
