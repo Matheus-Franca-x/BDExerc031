@@ -56,7 +56,7 @@
 - O user de id 2 não participa mais do projeto 10002, removê-lo da associativa.
 
 # Exerc2 Adicional:
-Consultar:
+## Consultar:
 - Fazer uma consulta que retorne id, nome, email, username e caso a senha seja diferente de
 123mudar, mostrar ******** (8 asteriscos), caso contrário, mostrar a própria senha.
 - Considerando que o projeto 10001 durou 15 dias, fazer uma consulta que mostre o nome do
