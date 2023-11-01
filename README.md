@@ -1,8 +1,9 @@
 # BDExerc021
 ## Links:
-[para SQLWork.sql](#sqlworksql)
+## [para SQLWork.sql](#sqlworksql)
+### [para o adicional](#workexerc2adicional)
 
-[para SQLLocadora.sql](#sqllocadorasql)
+## [para SQLLocadora.sql](#sqllocadorasql)
 
 ## SQLWork.sql
 ### Considere o diagrama abaixo:
@@ -55,7 +56,7 @@
 - Mudar o password do username Rh_maria (usar o username como condição de mudança) para 888@*, mas a condição deve verificar se o password dela ainda é 123mudar.
 - O user de id 2 não participa mais do projeto 10002, removê-lo da associativa.
 
-# Exerc2 Adicional:
+# Work Exerc2 Adicional:
 ### Consultar:
 - Fazer uma consulta que retorne id, nome, email, username e caso a senha seja diferente de
 123mudar, mostrar ******** (8 asteriscos), caso contrário, mostrar a própria senha.
@@ -170,7 +171,7 @@ projeto
 8) Fazer um select que retorne Nome real de Michael Keaton
 9) Fazer um select que retorne o num_cadastro, o nome e o endereço completo, concatenando (logradouro, numero e CEP), apelido end_comp, dos clientes cujo ID é maior ou igual 5503
 
-# Exerc2 Adicional:
+# Locadora Exerc2 Adicional:
 ### Consultar:
 1) Fazer uma consulta que retorne ID, Ano, nome do Filme (Caso o nome do filme tenha
 mais de 10 caracteres, para caber no campo da tela, mostrar os 10 primeiros
