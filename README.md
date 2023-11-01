@@ -71,7 +71,9 @@ projeto de nome Auditoria
 e ele deve finalizar 16/09/2014, consultar, nome, descrição, data, data_final e custo_total do
 projeto
 
-# ------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
+---
+---
 
 ## SQLLocadora.sql
 ### Considere o diagrama abaixo:
