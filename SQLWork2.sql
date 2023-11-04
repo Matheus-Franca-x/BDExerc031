@@ -103,8 +103,8 @@ AS password FROM users
 SELECT 
 p.name,
 p.description, 
-p.date_proj, 
-DATEADD(DAY, 15, p.date_proj) AS final_date,
+CONVERT(VARCHAR, p.date_proj, 103), 
+CONVERT(VARCHAR, (DATEADD(DAY, 15, p.date_proj)), 103) AS final_date,
 u.email
 FROM projects AS p
 INNER JOIN users_has_projects AS uhp ON p.id_projects = uhp.id_projects
@@ -121,8 +121,8 @@ WHERE p.name = 'Auditoria'
 --4/
 SELECT p.name, 
 p.description, 
-p.date_proj, 
-'2014-09-16' AS final_date,
+CONVERT(VARCHAR, p.date_proj, 103), 
+'16/09/2014' AS final_date,
 DATEDIFF(DAY, p.date_proj, '2014-09-16') * 79.85 AS total_cost
 FROM projects AS p 
 WHERE p.name LIKE 'Manutenção%'
