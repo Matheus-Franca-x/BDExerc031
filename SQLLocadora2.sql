@@ -212,7 +212,7 @@ WHERE d.data_fabr > '2020-01-01'
 --2/
 SELECT 
 d.num_dvd, 
-d.data_fabr, 
+CONVERT(VARCHAR, d.data_fabr, 103) AS data_fabr, 
 DATEDIFF(MONTH, d.data_fabr, GETDATE()) AS qntd_mes_fabr
 FROM dvd AS d
 INNER JOIN filme AS f ON d.id_filme = f.id_filme
@@ -221,8 +221,8 @@ WHERE f.titulo LIKE 'Interestelar'
 --3/
 SELECT 
 l.num_dvd, 
-l.data_locacao,
-l.data_devolucao,
+CONVERT(VARCHAR, l.data_locacao, 103) AS data_locacao,
+CONVERT(VARCHAR, l.data_devolucao, 103) AS data_devolucao,
 DATEDIFF(DAY, l.data_locacao, l.data_devolucao) AS dias_alugado,
 l.valor 
 FROM locacao AS l 
